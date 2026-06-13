@@ -125,7 +125,7 @@ export function AsciiApp() {
   };
 
   return (
-    <div className="grid items-start gap-5 md:grid-cols-[minmax(290px,380px)_minmax(0,1fr)]">
+    <div className="grid items-start gap-5 lg:grid-cols-[minmax(300px,390px)_minmax(0,1fr)]">
       <div className="grid gap-4">
         <ImageUploader
           previewUrl={previewUrl}
